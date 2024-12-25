@@ -1,3 +1,5 @@
+/* nav related style */
+
 body{
     font-family: "Lato", sans-serif;
     font-family: "Open Sans", sans-serif;
@@ -11,6 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 150px;
 
 }
 
@@ -39,4 +42,20 @@ nav li{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/* header related style */
+.header-section{
+    background-color: rgb(238, 216, 195);
+   
+}
+
+.banner{
+    padding: 30px 30px 30px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture{
+    width: 500px;
 }
