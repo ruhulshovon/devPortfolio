@@ -47,15 +47,34 @@ nav li{
 /* header related style */
 .header-section{
     background-color: rgb(238, 216, 195);
-   
+   background-image: url(../images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 100px;
+    padding: 30px 30px 0px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile-picture{
     width: 500px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph{
+    width: 600px;
 }
